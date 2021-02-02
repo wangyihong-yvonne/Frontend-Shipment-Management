@@ -1,0 +1,32 @@
+.homepage-container {
+  background-image: url(../background.jpeg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+
+.slogan-container {
+  position: fixed;
+}
+
+.slogan-container h1 {
+  margin-top: 0;
+  color: #322824;
+  opacity: 0.8;
+  font-size: 50px;
+  font-family: 'Staatliches', cursive;
+  text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.1);
+}
+
+.slogan-container h4 {
+  color: #b28c69;
+  font-size: 30px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: bold;
+  text-shadow: 0px 3px 4px rgba(0, 0, 0, 0.1);
+}

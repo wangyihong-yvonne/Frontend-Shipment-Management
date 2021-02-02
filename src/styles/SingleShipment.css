@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,400;1,700&family=Rubik&display=swap');
+
+.active-record {
+  padding: 20px;
+  font-family: 'Karla', sans-serif;
+  font-size: 17px;
+  color: #322824;
+}
+
+.active-record:nth-of-type(odd) {
+  background: -webkit-linear-gradient(
+    to right,
+    #eaeaea,
+    #d7dde8,
+    #f2f2f2
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #eaeaea,
+    #d7dde8,
+    #f2f2f2
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.active-record:nth-of-type(even) {
+  background: -webkit-linear-gradient(
+    to left,
+    #ffffff,
+    #eef2f3
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #ffffff,
+    #eef2f3
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.active-record .comment {
+  font-weight: 600;
+}
+
+.active-record .tracking-num {
+  text-decoration: underline;
+}
+
+.active-record .tracking-num:hover {
+  cursor: pointer;
+}
+
+.active-record a {
+  color: #322824;
+  text-decoration: underline;
+}
+
+/* effects for done-icon */
+.active-record .done-icon {
+  font-size: 20px;
+  color: #555555;
+}
+
+.active-record .done-icon:hover,
+.done-icon:focus {
+  color: #5da308;
+  cursor: pointer;
+}
+
+.active-record .done-icon .done-icon-text {
+  visibility: hidden;
+  width: 60px;
+  background-color: #322824;
+  font-size: small;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 5px;
+  position: absolute;
+  z-index: 1;
+}
+
+.active-record .done-icon:hover .done-icon-text {
+  visibility: visible;
+}
+
+.active-record .done-icon:focus .done-icon-text {
+  visibility: visible;
+}
+
+/* effects for delete-icon */
+.active-record .delete-icon {
+  margin-left: 15px;
+  font-size: 20px;
+  color: #555555;
+}
+
+.active-record .delete-icon:hover,
+.delete-icon:focus {
+  color: #d60d06;
+  cursor: pointer;
+}
+
+.active-record .delete-icon .delete-icon-text {
+  visibility: hidden;
+  width: 60px;
+  background-color: #322824;
+  font-size: small;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 5px;
+  position: absolute;
+  z-index: 1;
+}
+
+.active-record .delete-icon:hover .delete-icon-text {
+  visibility: visible;
+}
+
+.active-record .delete-icon:focus .delete-icon-text {
+  visibility: visible;
+}

@@ -1,0 +1,24 @@
+.event-title {
+  background: #dbdbdb;
+  padding: 5px 0;
+  color: #322824;
+}
+
+.event-detail {
+  font-family: 'Karla', sans-serif;
+  color: #555555;
+}
+
+.event-detail:nth-of-type(odd) {
+  background: #dbdbdb;
+}
+
+.event-detail:nth-of-type(even) {
+  background: #f2f2f2;
+}
+
+.close:focus {
+  outline: none;
+  border: none;
+  box-shadow: 0 0 3pt 2pt #7e7e7e;
+}

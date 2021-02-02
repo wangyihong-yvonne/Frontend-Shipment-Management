@@ -1,0 +1,37 @@
+.shipment-form {
+  padding: 20px 0;
+}
+.shipment-form .form-group label {
+  color: #322824;
+  font-weight: 500;
+}
+
+.shipment-form .form-control {
+  background-color: #f2f2f2;
+}
+
+.shipment-form .form-control:focus {
+  border-color: #b28c69;
+  box-shadow: 0 3px 3px #b28c69;
+  outline: 0 none;
+}
+
+.shipment-form input[type='text']:focus {
+  border-color: #b28c69;
+  box-shadow: 0 3px 3px #b28c69;
+  outline: 0 none;
+}
+
+/* customize add tracking button */
+.shipment-form .add-button {
+  background-color: #b28c69;
+  border: none;
+}
+
+.shipment-form .add-button:hover {
+  background-color: #322824;
+}
+
+.shipment-form .add-button:focus {
+  background-color: #322824;
+}

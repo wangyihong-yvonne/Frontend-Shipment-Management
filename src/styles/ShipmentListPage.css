@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,400;1,700&family=Rubik&display=swap');
+
+.shipment-list {
+  height: 100vh;
+  background-color: #d9d9d9;
+}
+
+.shipment-list .nav-tabs a {
+  color: #322824;
+}
+
+.shipment-list .nav-tabs .nav-item:focus {
+  background-color: #f2f2f2;
+}
+
+.shipment-list .greeting {
+  color: #322824;
+  padding: 25px 10px 10px 10px;
+  text-transform: capitalize;
+  font-family: 'Rubik', sans-serif;
+  font-size: xx-large;
+  opacity: 0.8;
+}
